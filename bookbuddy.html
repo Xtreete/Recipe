@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: lightpink;
+        }
+
+        /* Top menu */
+        nav {
+            background-color: deeppink;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        /* Login window */
+        .login {
+            background-color: white;
+            width: 300px;
+            padding: 30px;
+            margin: 100px auto;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            background-color: deeppink;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="login">
+
+        <h2>Login</h2>
+
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p>Forgot password?</p>
+
+    </div>
+
+</body>
+</html>
